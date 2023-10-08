@@ -20,7 +20,7 @@ const About = () => {
             </div>
         </div>
         <div className='flex xl:flex-row flex-col my-16 gap-2 w-full'>
-            <div className="flex items-center justify-center xl:w-3/5-10 w-full h-96 xl:h-auto rounded-3xl bg-center bg-gray-400 bg-blend-multiply bg-[url('https://img.freepik.com/photos-gratuite/portrait-noir-blanc-femme-chaise-dans-style-glamour-vieux-hollywoodien_23-2150720576.jpg?w=1480&t=st=1696768141~exp=1696768741~hmac=02823c1cb891c37485c791458c075b3dcd27dae9587edb5a04a5f93a34f2f971')] bg-cover">
+            <div className="flex items-center justify-center xl:w-3/5-10 w-full h-96 xl:h-auto rounded-3xl bg-center bg-gray-400 bg-blend-multiply bg-[url('../public/images/portrait.jpeg')] bg-cover">
                 <div className=''>
                     <Image className='w-16 cursor-pointer'  src={play} alt='play'/>
                 </div>

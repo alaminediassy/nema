@@ -41,7 +41,7 @@ const Header = () => {
               <button className='bg-buttonColor hover:bg-white hover:text-buttonColor hover:font-normal rounded-3xl sm:w-full xl:text-xl text-md font-semibold md:pt-10 pt-4 pb-4 md:pb-10 pr-6 pl-6'>Clients says</button>
             </div>
           </div>
-          <div className="xl:w-4/5 w-full h-96 xl:h-auto rounded-3xl bg-center bg-gray-400 bg-blend-multiply bg-[url('https://img.freepik.com/photos-gratuite/famille-africaine-passant-du-temps-ensemble_53876-139614.jpg?w=1480&t=st=1696754178~exp=1696754778~hmac=6dad3878655dd147e233bafc1c55532d4b9e75262df075d9405c202a8d181f4c')] bg-cover">
+          <div className="xl:w-4/5 w-full h-96 xl:h-auto rounded-3xl bg-center bg-gray-400 bg-blend-multiply bg-[url('../public/images/web.jpg')] bg-cover">
               <div className='w-full text-center pt-20'>
               </div>
           </div>
