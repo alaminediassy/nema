@@ -8,8 +8,8 @@ const Header = () => {
   return (
     <div className='bg-bodyColor max-w-container lg:p-5 sm:p-4 lg:mx-10 font-bodyFont'>
         <div className='grid grid-cols-1 gap-8 xl:grid-cols-2 items-center'>
-          <h2 className='font-bold p-0 text-8xl lg:text-start text-center'>Creative</h2>
-          <p className='text-lg text-white/80 mr-30 hidden lg:inline-flex'>
+          <h2 className='font-bold p-0 text-6xl xl:text-8xl lg:text-start text-center'>Creative</h2>
+          <p className='text-lg text-white/80 mr-30 hidden xl:inline-flex'>
             We are Nema, Nema is a digital creative agency with serveral 
             services which focused on quality and innovations for your company
           </p>
@@ -20,9 +20,9 @@ const Header = () => {
             <p className='text-2xl font-semibold'>2023</p>
           </div>
           <div className='text-center'>
-            <h2 className='font-bold p-0 text-8xl'>Digital Agency</h2>
+            <h2 className='font-bold p-0 text-6xl xl:text-8xl'>Digital Agency</h2>
           </div>
-          <div className='lg:hidden text-center'>
+          <div className='xl:hidden text-center'>
             <p className='text-lg text-white/80 mr-30 pt-6'>
               We are Nema, Nema is a digital creative agency with serveral 
               services which focused on quality and innovations for your company.
@@ -32,9 +32,9 @@ const Header = () => {
             <button className=' bg-textOrange rounded-3xl sm:w-full text-xl font-semibold pt-8 pb-8 pr-20 pl-20 xl:pr-10 xl:pl-10'>Get in touch</button>
           </div>
         </div>
-        <div className='flex xl:flex-row flex-col my-16 gap-2 w-full'>
-          <div className='xl:w-1/5 w-full'>
-            <div className="rounded-3xl flex xl:flex-col  gap-2">
+        <div className='flex xl:flex-row  flex-col my-16 gap-10 xl:gap-2 w-full'>
+          <div className='xl:w-1/5 w-full '>
+            <div className="rounded-3xl grid grid-cols-2 xl:grid-cols-1  gap-2">
               <button className='bg-buttonColor hover:bg-white hover:text-buttonColor hover:font-normal rounded-3xl sm:w-full xl:text-xl text-md font-semibold md:pt-10 pt-4 pb-4 md:pb-10 pr-6 pl-6'>About us</button>
               <button className='bg-buttonColor hover:bg-white hover:text-buttonColor hover:font-normal rounded-3xl sm:w-full xl:text-xl text-md font-semibold md:pt-10 pt-4 pb-4 md:pb-10 pr-6 pl-6'>Our services</button>
               <button className='bg-buttonColor hover:bg-white hover:text-buttonColor hover:font-normal rounded-3xl sm:w-full xl:text-xl text-md font-semibold md:pt-10 pt-4 pb-4 md:pb-10 pr-6 pl-6'>Our projects</button>
@@ -66,5 +66,4 @@ const Header = () => {
     </div>
   )
 }
-
 export default Header
