@@ -4,7 +4,7 @@ import play from '../public/images/play.svg'
 
 const About = () => {
   return (
-    <div className='bg-bodyColor max-w-container lg:p-5 sm:p-4 lg:mx-10 '>
+    <div className='bg-bodyColor h-screen lg:p-5 sm:p-4 lg:mx-10 '>
         <div className='flex xl:flex-row flex-col justify-between'>
             <div className='flex  xl:w-1/2 items-center gap-4 '>
                 <div className='text-6xl flex flex-col font-bold'>
