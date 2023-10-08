@@ -4,7 +4,7 @@ import play from '../public/images/play.svg'
 
 const About = () => {
   return (
-    <div className='bg-bodyColor h-screen lg:p-5 sm:p-4 lg:mx-10 '>
+    <div className='bg-bodyColor max-w-container lg:p-5 sm:p-4 lg:mx-10 '>
         <div className='flex xl:flex-row flex-col justify-between'>
             <div className='flex  xl:w-1/2 items-center gap-4 '>
                 <div className='text-6xl flex flex-col font-bold'>
@@ -22,7 +22,7 @@ const About = () => {
         <div className='flex xl:flex-row flex-col my-16 gap-2 w-full'>
             <div className="flex items-center justify-center xl:w-3/5-10 w-full h-96 xl:h-auto rounded-3xl bg-center bg-gray-400 bg-blend-multiply bg-[url('../public/images/portrait.jpeg')] bg-cover">
                 <div className=''>
-                    <Image className='w-16 cursor-pointer'  src={play} alt='play'/>
+                    <Image className=''  src={play} alt='play'/>
                 </div>
             </div>
           <div className='xl:w-2/5 w-full'>
