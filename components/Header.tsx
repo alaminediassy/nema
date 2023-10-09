@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 const Header = () => {
   return (
-    <div className='bg-bodyColor max-w-container lg:p-5 sm:p-4 lg:mx-10 font-bodyFont'>
+    <div className='max-w-contentContainer mx-auto py-4 mdl:py-4 flex flex-col gap-4 lgl:gap-8 mdl:px-10 xl:px-4'>
         <div className='grid grid-cols-1 gap-8 xl:grid-cols-2 items-center'>
           <h2 className='font-bold p-0 text-6xl xl:text-8xl lg:text-start text-center'>Creative</h2>
           <p className='text-lg text-white/80 mr-30 hidden xl:inline-flex'>

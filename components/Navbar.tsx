@@ -16,8 +16,8 @@ const Navbar = () => {
   const router = useRouter();
   
   return (
-    <div className='mb-10'>
-        <div className='flex items-center max-w-container justify-between lg:p-5 sm:p-2 lg:mx-10 font-bodyFont'>
+    <div className="w-full h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyColor px-4">
+      <div className="max-w-container h-full mx-auto py-1  font-titleFont flex items-center justify-between">
            <h1 className='text-textOrange font-semibold text-3xl'>Nema.</h1>
           <div
           onClick={() => setShowMenu(true)}
