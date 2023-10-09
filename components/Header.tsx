@@ -1,5 +1,4 @@
 import React from 'react'
-import abstract from "../public/images/abstract.svg"
 import phoenix from "../public/images/phoenix.svg"
 
 import Image from 'next/image'
@@ -38,7 +37,7 @@ const Header = () => {
               <button className='bg-buttonColor hover:bg-white hover:text-buttonColor hover:font-normal rounded-3xl sm:w-full xl:text-xl text-md font-semibold md:pt-10 pt-4 pb-4 md:pb-10 pr-6 pl-6'>About us</button>
               <button className='bg-buttonColor hover:bg-white hover:text-buttonColor hover:font-normal rounded-3xl sm:w-full xl:text-xl text-md font-semibold md:pt-10 pt-4 pb-4 md:pb-10 pr-6 pl-6'>Our services</button>
               <button className='bg-buttonColor hover:bg-white hover:text-buttonColor hover:font-normal rounded-3xl sm:w-full xl:text-xl text-md font-semibold md:pt-10 pt-4 pb-4 md:pb-10 pr-6 pl-6'>Our projects</button>
-              <button className='bg-buttonColor hover:bg-white hover:text-buttonColor hover:font-normal rounded-3xl sm:w-full xl:text-xl text-md font-semibold md:pt-10 pt-4 pb-4 md:pb-10 pr-6 pl-6'>Clients says</button>
+              <button className='bg-buttonColor hover:bg-white hover:text-buttonColor hover:font-normal rounded-3xl sm:w-full xl:text-xl text-md font-semibold md:pt-10 pt-4 pb-4 md:pb-10 pr-6 pl-6'>Clients say</button>
             </div>
           </div>
           <div className="xl:w-4/5 w-full h-96 xl:h-auto rounded-3xl bg-center bg-gray-400 bg-blend-multiply bg-[url('../public/images/web.jpg')] bg-cover">
@@ -51,13 +50,13 @@ const Header = () => {
             <Image className='w-36 gap-2 text-buttonColor' src={phoenix} alt='phoenix'/>
           </div>
           <div>
-            <Image className='w-36 gap-2 text-buttonColor' src={abstract} alt='abstract'/>
+            <Image className='w-36 gap-2 text-buttonColor' src={phoenix} alt='abstract'/>
           </div>
           <div>
             <Image className='w-36 gap-2 text-buttonColor' src={phoenix} alt='phoenix'/>
           </div>
           <div>
-            <Image className='w-36 gap-2 text-buttonColor' src={abstract} alt='abstract'/>
+            <Image className='w-36 gap-2 text-buttonColor' src={phoenix} alt='abstract'/>
           </div>
           <div>
             <Image className='w-36 gap-2 text-buttonColor' src={phoenix} alt='phoenix'/>

@@ -9,14 +9,14 @@ export default function Home() {
   return (
     <>
     <Head>
-      <title>Mamadou DIASSY</title>
+      <title>Nema</title>
       <link rel="icon" href="" />
     </Head>
     <motion.div
     className="fixed top-0 left-0 right-0 h-6 bg-textOrange transform-none "
     style={{ scaleX: scrollYProgress }}
     >
-      <main className='w-full h-screen font-bodyFont bg-bodyColor text-textLight overflow-x-hidden
+      <main className='w-full h-screen font-bodyFont bg-bodyColor text-white overflow-x-hidden
       overflow-y-scroll'>
         <Navbar/>
         
