@@ -32,7 +32,7 @@ const About = () => {
           </div>
         </div>
         <div className="xl:w-2/5 w-full">
-          <div className="rounded-3xl grid grid-cols-2 xl:grid-cols-1 gap-2">
+          <div className="rounded-3xl grid grid-col-1 md:grid-cols-2 xl:grid-cols-1 gap-2">
             {data &&
               data.map((info, index) => {
                 return (
