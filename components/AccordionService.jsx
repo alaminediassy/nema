@@ -17,7 +17,7 @@ const AccordionService = ({icon, title, description, image1, image2}) => {
             <div className='text-xl pr-10 xl:pr-0 xl:w-1/3 font-bold text-textOrange'>
                 {icon}
             </div>
-            <div className='text-white xl:w-2/3 text-lg md:text-2xl font-semibold w right-0' >
+            <div className='text-white xl:w-2/3 text-2xl font-semibold w right-0' >
                 {title}
             </div>
         </div>
