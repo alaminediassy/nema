@@ -4,6 +4,7 @@ import AccordionService from "./AccordionService";
 import icon1 from "../public/images/store/icon1.svg";
 import icon2 from "../public/images/store/icon2.png";
 import icon3 from "../public/images/store/icon3.png";
+import icon4 from "../public/images/store/icon4.png";
 import projet1 from "../public/images/store/projet1.png";
 import projet2 from "../public/images/store/projet2.png";
 
@@ -51,7 +52,23 @@ const Services = () => {
                         <div className="md:w-1/2 w-[90%] mx-auto"><Image src={projet2} alt="projet 1" className="w-full rounded-2xl" /></div>
                     </div>
                    );
-                   break       
+                   break
+                   case 2: imageComponent = (
+                    <div className="flex flex-col md:flex-row gap-4 justify-between pt-4 xl:w-full">
+                        <div className="md:w-1/2 w-[90%] mx-auto"><Image src={projet1} alt="projet 1" className="w-full rounded-2xl" /></div>
+                        
+                        <div className="md:w-1/2 w-[90%] mx-auto"><Image src={projet2} alt="projet 1" className="w-full rounded-2xl" /></div>
+                    </div>
+                   );
+                   break
+                   case 3: imageComponent = (
+                    <div className="flex flex-col md:flex-row gap-4 justify-between pt-4 xl:w-full">
+                        <div className="md:w-1/2 w-[90%] mx-auto"><Image src={projet1} alt="projet 1" className="w-full rounded-2xl" /></div>
+                        
+                        <div className="md:w-1/2 w-[90%] mx-auto"><Image src={projet2} alt="projet 1" className="w-full rounded-2xl" /></div>
+                    </div>
+                   );
+                   break      
                 default:
                     break;
               }
@@ -67,10 +84,15 @@ const Services = () => {
                     <Image src={icon2} alt="Icône 2" width={30} height={30} />
                   );
                   break;
+                  case 2:
+                  iconComponent = (
+                    <Image src={icon3} alt="Icône 2" width={30} height={30} />
+                  );
+                  break;
                 // Ajout de plus de cas si nécessaire
                 default:
                   iconComponent = (
-                    <Image src={icon3} alt="Icône 3" width={30} height={30} />
+                    <Image src={icon4} alt="Icône 3" width={30} height={30} />
                   );
                   break;
               }

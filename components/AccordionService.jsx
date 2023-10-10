@@ -9,15 +9,15 @@ const AccordionService = ({icon, title, description, image1, image2}) => {
     const [isActive, setIsActive] = useState(false);
   return (
     <>
-    <div className='bg-buttonColor rounded-3xl text-sm md:pt-6 pt-6 md:pb-6 pb-4  pr-6 pl-6 cursor-pointer '
+    <div className='bg-buttonColor rounded-3xl text-white text-sm md:pt-6 pt-6 md:pb-6 pb-4  pr-6 pl-6 cursor-pointer '
       onClick={() => setIsActive(!isActive)}
     >
       <div className='flex xl:items-center flex-col xl:flex-row'>
         <div className='flex flex-row w-full xl:w-1/2'>
-            <div className='text-xl pr-10 xl:pr-0 xl:w-1/3 font-bold text-textOrange'>
+            <div className='pr-10 xl:pr-0 xl:w-1/3 '>
                 {icon}
             </div>
-            <div className='text-white xl:w-2/3 text-2xl w right-0' >
+            <div className='text-white/70 xl:w-2/3 text-2xl w right-0' >
                 {title}
             </div>
         </div>
