@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import Header from "@/components/Header";
 import Navbar from "@/components/Navbar";
+import Services from "@/components/Services";
 import { motion, useScroll } from "framer-motion";
 import Head from "next/head";
 
@@ -32,6 +33,7 @@ export default function Home() {
           <div className="h-[88vh] w-full mx-auto p-4 ">
             <Header/>
             <About/>
+            <Services/>
           </div>
           <motion.div 
           initial={{ opacity: 0}}

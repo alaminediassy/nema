@@ -12,7 +12,7 @@ const AccordionComponent = ({term, title, desc}) => {
           <div className='text-4xl w-1/3 font-bold text-textOrange'>
             {term}
           </div>
-          <div className='text-textOrange text-xl xl:text-md font-normal w-1/3' >
+          <div className='text-textOrange text-md xl:text-md font-normal w-1/3' >
             {title}
           </div>  
           <div className='cursor-pointer font-bold w-1/3 pl-20 xl:pl-16'>

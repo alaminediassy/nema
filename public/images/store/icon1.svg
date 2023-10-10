@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140.8 140.8">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Rectangle_1" data-name="Rectangle 1">
+    <rect class="cls-1" x="0" width="140.8" height="140.8" rx="36.5" ry="36.5"/>
+    <path class="cls-2" d="m104.3,140.8H36.5C16.4,140.8,0,124.4,0,104.3V36.5C0,16.4,16.4,0,36.5,0h67.8C124.4,0,140.8,16.4,140.8,36.5v67.8c0,20.1-16.4,36.5-36.5,36.5ZM36.5,10.4c-14.4,0-26.1,11.7-26.1,26.1v67.8c0,14.4,11.7,26.1,26.1,26.1h67.8c14.4,0,26.1-11.7,26.1-26.1V36.5c0-14.4-11.7-26.1-26.1-26.1H36.5Z"/>
+  </g>
+  <g id="Ligne_1" data-name="Ligne 1">
+    <rect class="cls-2" x="6.5" y="43" width="132.9" height="10.4"/>
+  </g>
+  <g id="Ligne_2" data-name="Ligne 2">
+    <rect class="cls-2" x="27.4" y="71.7" width="86" height="10.4" rx="5.2" ry="5.2"/>
+  </g>
+  <g id="Ligne_3" data-name="Ligne 3">
+    <rect class="cls-2" x="27.4" y="100.4" width="86" height="10.4" rx="5.2" ry="5.2"/>
+  </g>
+</svg>

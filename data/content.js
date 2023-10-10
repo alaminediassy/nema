@@ -20,6 +20,22 @@ const content = {
             title: "Total revenue",
             desc: "We design disruptive brands for organizations that aspire to have a positive social and envirenmental impact for 10 years ago."
         },    
+    ],
+    accordionServices: [
+        {
+            icon: "Icon",
+            title: "Web Design",
+            description: "We can build you the responsive website design your business needs to make the perfect firt impression.",
+            image1: "image 1",
+            image2: "image 2",
+        },
+        {
+            icon: "Icon",
+            title: "Web Design",
+            description: "We can build you the responsive website design your business needs to make the perfect firt impression.",
+            image1: "image 1",
+            image2: "image 2",
+        },
     ]
 }
 

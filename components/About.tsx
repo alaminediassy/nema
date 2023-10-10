@@ -11,7 +11,7 @@ const About = () => {
     <div className="max-w-contentContainer mx-auto py-4 mdl:py-4 flex flex-col gap-4 lgl:gap-8 mdl:px-10 xl:px-4">
       <div className="flex xl:flex-row flex-col justify-between">
         <div className="flex w-full xl:w-1/2 items-center gap-4 ">
-          <div className="text-4xl lg:text-6xl flex flex-col font-bold">
+          <div className="text-4xl lg:text-5xl flex flex-col font-bold">
             <h1>
               About <span className="text-textOrange">Us</span>
             </h1>

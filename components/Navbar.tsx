@@ -25,7 +25,7 @@ const Navbar = () => {
   
   return (
     <div className="w-full h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyColor px-4">
-      <div className="max-w-container h-full mx-auto py-1 flex items-center justify-between">
+      <div className="max-w-container h-full mx-auto py-1 flex items-center justify-between cursor-pointer">
            <h1 className='text-textOrange font-semibold text-3xl'>Nema.</h1>
           <div
           onClick={() => setShowMenu(true)}
