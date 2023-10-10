@@ -9,23 +9,23 @@ const AccordionService = ({icon, title, description, image1, image2}) => {
     const [isActive, setIsActive] = useState(false);
   return (
     <>
-    <div className='bg-buttonColor rounded-3xl text-sm  md:pt-4 pt-4 md:pb-4 pb-4  pr-6 pl-6 cursor-pointer hover:bg-white/20'
+    <div className='bg-buttonColor rounded-3xl text-sm md:pt-6 pt-6 md:pb-6 pb-4  pr-6 pl-6 cursor-pointer '
       onClick={() => setIsActive(!isActive)}
     >
-      <div className='flex items-center'>
-        <div className='flex flex-col xl:flex-row mx-auto items-center w-1/2'>
-            <div className='text-xl w-full xl:w-1/4 font-bold text-textOrange'>
+      <div className='flex xl:items-center flex-col xl:flex-row'>
+        <div className='flex flex-row w-full xl:w-1/2'>
+            <div className='text-xl pr-10 xl:pr-0 xl:w-1/3 font-bold text-textOrange'>
                 {icon}
             </div>
-            <div className='text-white text-xl font-semibold w-full xl:w-1/3' >
+            <div className='text-white xl:w-2/3 text-lg md:text-2xl font-semibold w right-0' >
                 {title}
             </div>
         </div>
-        <div className='flex items-center w-[90%] xl:w-1/2'>
-            <div className='text-sm font-thin text-white'>
+        <div className='flex xl:items-center w-full xl:w-1/2'>
+            <div className='text-lg text-white/80 pt-6'>
                 {description}
             </div>
-            <div className='cursor-pointer font-bold w-1/3 pl-20 xl:pl-16'>
+            <div className='flex cursor-pointer font-bold xl:w-1/3 md:pl-20'>
                 {isActive ? <AiOutlineUp/> : <AiOutlineDown/>}
             </div>
         </div> 

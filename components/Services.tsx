@@ -17,7 +17,7 @@ const Services = () => {
         <div className="flex w-full xl:w-1/2 items-center gap-4 ">
           <div className="text-4xl lg:text-5xl flex flex-col font-bold">
             <h1>
-              Our Services <span className="text-textOrange">Us</span>
+              Our <span className="text-textOrange">Services</span>
             </h1>
           </div>
           <div className="border-b-4 border-textOrange w-1/5"></div>
@@ -30,7 +30,7 @@ const Services = () => {
         </div>
       </div>
       <div className="w-full">
-        <div className="rounded-3xl grid grid-col-1 xl:grid-cols-1 gap-2">
+        <div className="rounded-3xl grid grid-col-1 xl:grid-cols-1 gap-4">
           {data &&
             data.map((info, index) => {
               let iconComponent;
