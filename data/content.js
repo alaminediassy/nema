@@ -31,7 +31,7 @@ const content = {
         },
         {
             icon: "Icon",
-            title: "Web Design",
+            title: "Development",
             description: "We can build you the responsive website design your business needs to make the perfect firt impression.",
             image1: "image 1",
             image2: "image 2",
