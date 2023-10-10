@@ -22,10 +22,10 @@ const Navbar = () => {
     }
   }
   const router = useRouter();
-  
+ 
   return (
     <div>
-      <div className="w-full h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyColor xl:bg-transparent">
+      <div className="w-full h-20  lg:h-[12vh] sticky top-0 z-50 bg-bodyColor xl:bg-transparent">
           <div className="max-w-container h-full mx-auto py-1 flex items-center justify-between cursor-pointer">
               <h1 className='text-textOrange font-semibold pl-6 text-3xl'>Nema.</h1>
               <div
@@ -43,14 +43,14 @@ const Navbar = () => {
             <div
             ref={(node) => (ref.current = node)}
             onClick={handleClick}
-            className="absolute top-0 w-full bg-bodyColor"
+            className=" fixed top-0 h-screen  w-full bg-bodyColor"
             >
-                <div className='w-full h-screen  overflow-y-scroll scrollbarHide bg-bodyColor flex flex-col items-start px-4 py-10 relative'>
+                <div className='w-full   overflow-hidden scrollbarHide bg-bodyColor flex flex-col items-start px-4 py-10 relative'>
                   <MdOutlineClose
                   onClick={() => setShowMenu(false)}
                   className="text-5xl text-white cursor-pointer right-10 hover:text-textOrange/70 absolute"
                   />
-                  <div className='pt-20 w-full text-center text-3xl uppercase'>
+                  <div className='pt-20 w-full text-center text-3xl cursor-pointer uppercase'>
                     <Link href="/">
                       <motion.div 
                       initial={{ y: -10, opacity: 0 }}
@@ -58,7 +58,7 @@ const Navbar = () => {
                       transition={{ duration: 0.2, delay: 0.1, ease: "easeIn" }}
                       className=' w-full p-8 hover:bg-gradient-to-r from-textOrange cursor-pointer duration-300'>Home</motion.div>
                     </Link>
-                    <Link href="/">
+                    <Link href="/About">
                       <motion.div 
                       initial={{ y: -10, opacity: 0 }}
                       animate={{ y: 0, opacity: 1 }}
