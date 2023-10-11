@@ -1,7 +1,7 @@
 import React from 'react'
 import phoenix from "../public/images/phoenix.svg"
-
 import Image from 'next/image'
+
 
 const Header = () => {
   return (

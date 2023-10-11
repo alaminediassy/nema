@@ -23,8 +23,13 @@
     "react-collapse": "^5.1.1",
     "react-dom": "18.2.0",
     "react-icons": "^4.11.0",
+    "react-slick": "^0.29.0",
     "react-svg": "^16.1.28",
+    "slick-carousel": "^1.8.1",
     "tailwindcss": "3.3.3",
     "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "@types/react-slick": "^0.23.10"
   }
 }
