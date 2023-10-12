@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Navbar from "@/components/Navbar";
 import Project from "@/components/Project";
 import Services from "@/components/Services";
+import Testimonial from "@/components/Testimonial";
 import { motion, useScroll } from "framer-motion";
 import Head from "next/head";
 
@@ -36,6 +37,7 @@ export default function Home() {
             <About/>
             <Services/>
             <Project/>
+            <Testimonial/>
           </div>
           <motion.div 
           initial={{ opacity: 0}}

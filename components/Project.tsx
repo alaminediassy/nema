@@ -1,5 +1,7 @@
 import React from 'react'
 import project_1 from "../public/images/project1.png"
+import project_2 from "../public/images/project2.png"
+
 import Image from 'next/image'
 
 const Project = () => {
@@ -23,7 +25,7 @@ const Project = () => {
       </div>
       <div className='w-full py-10  gap-2 flex flex-col-2'>
         <div className='flex gap-2 xl:w-2/3  flex-col'>
-            <div className=''> <Image className='rounded-3xl w-full h-80 xl:h-[502px] object-cover' src={project_1} alt='projet un'/> </div>
+            <div className=''> <Image className='rounded-3xl w-full h-80 xl:h-[502px] object-cover' src={project_2} alt='projet un'/> </div>
             <div className='flex gap-2  w-full'>
                 <div className=''><Image className='rounded-3xl w-full'  src={project_1} alt='projet un'/></div>
                 <div className=''><Image className='rounded-3xl w-full' src={project_1} alt='projet un'/></div>
