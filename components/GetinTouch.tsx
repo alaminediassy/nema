@@ -4,7 +4,7 @@ import {FiChevronRight} from "react-icons/fi"
 const GetinTouch = () => {
   return (
     <div className="max-w-contentContainer mx-auto pb-20 flex flex-col mdl:px-10 xl:px-4">
-      <div className='text-[60px] xl:text-[80px] font-bold'>
+      <div className='text-[50px] xl:text-[80px] font-bold'>
         <div className='w-full bg-buttonColor rounded-t-3xl xl:rounded-br-3xl'> 
             <h1 className='xl:pl-8 sm:p-5 pt-4 xl:text-start text-center'>Let&apos;s <span className='text-textOrange'> build </span> and <span className='text-textOrange'> scale </span> it !</h1>
         </div>
