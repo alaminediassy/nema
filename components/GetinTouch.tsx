@@ -14,7 +14,7 @@ const GetinTouch = () => {
         <p className='text-xl sm:pt-4 font-regular text-white/80'>hello@nema.sn</p>
         <div className="hidden xl:block border-b-2 border-textOrange w-1/2"></div>
         <div className='xl:pt-0 pt-10 xl:pb-2 pb-4'>
-            <button className='flex gap-4 sm:border-8 border-bodyColor bg-textOrange rounded-3xl sm:w-full text-xl font-semibold pt-8 pb-8 pr-20 pl-20 xl:pr-10 xl:pl-10'>
+            <button className='flex gap-4 sm:border-8 border-bodyColor items-center bg-textOrange rounded-3xl sm:w-full text-xl font-semibold pt-8 pb-8 pr-20 pl-20 xl:pr-10 xl:pl-10'>
                 Get in touch
                 <FiChevronRight className="text-2xl text-white"/>
             </button>
