@@ -93,7 +93,7 @@ const Testimonial = () => {
                           Praesentium accusantium provident quas, illo ut possimus
                           facere omnis reiciendis quis dolores.
                         </p>
-                        <span>Astou NDIAYE - Co founder NEMA</span>
+                        <span>Astou NDIAYE - Co-founder NEMA</span>
                       </div>
                     </div>
                     <div className="flex w-full gap-2 ">
