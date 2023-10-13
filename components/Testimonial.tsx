@@ -23,41 +23,17 @@ const Testimonial = () => {
             </p>
           </div>
         </div>
-        {/* <div className="grid grid-cols-3 gap-2">
-            <div className="col-span-2 bg-slate-400 text-center p-4">
-                <div className="grid grid-cols-3  gap-2">
-                    <div className="col-start-1 col-end-4 bg-blue-400">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Praesentium accusantium provident quas, illo ut possimus
-                        facere omnis reiciendis quis dolores, aliquam eveniet quos?
-                        Enim distinctio quo beatae atque repellat consequuntur.    
-                    </div>
-                    <div className="col-start-1 col-end-4 bg-blue-400">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Praesentium accusantium provident quas, illo ut possimus
-                        facere omnis reiciendis quis dolores, aliquam eveniet quos?
-                        Enim distinctio quo beatae atque repellat consequuntur.
-                    </div>
-                </div>
-            </div>
-            <div className="col-span-1 bg-slate-400 text-center p-4">
-                <div className="grid grid-rows-3 grid-flow-col gap-2">
-                    <div className="row-span-2 col-span-3 bg-red-400">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Praesentium accusantium provident quas, illo ut possimus
-                        facere omnis reiciendis quis dolores, aliquam eveniet quos?
-                        Enim distinctio quo beatae atque repellat consequuntur.
-                    </div>
-                    <div className="row-span-1 col-span-3 bg-red-400">hello</div>
-                </div>
-            </div>
-        </div> */}
         <div className="flex  gap-2 flex-row w-full">
             <div className="hidden lg:block basis-2/3">
                 <div className="flex flex-col gap-2">
                     <div className="p-10 bg-buttonColor rounded-3xl">
                       <div className="flex gap-2 flex-row w-full">
-                        <div className="basis-1/3"> <Image className="rounded-full mx-auto" width={110} height={110} src={woman} alt="woman"/> </div>
+                        <div className="basis-1/3"> 
+                        <span className="relative flex h-3 w-3">
+                            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-textOrange opacity-75"></span>
+                            <span className="relative inline-flex rounded-full h-3 w-3 bg-textOrange"></span>
+                        </span>
+                        <Image className="rounded-full mx-auto" width={110} height={110} src={woman} alt="woman"/> </div>
                         <div className="basis-2/3">
                           <p className="pb-10">
                           Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -70,7 +46,12 @@ const Testimonial = () => {
                     </div>
                     <div className="p-10 bg-buttonColor rounded-3xl">
                       <div className="flex gap-2 flex-row w-full">
-                        <div className="basis-1/3"> <Image className="rounded-full mx-auto" width={110} height={110} src={woman} alt="woman"/> </div>
+                        <div className="basis-1/3">
+                        <span className="relative flex h-3 w-3">
+                            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-textOrange opacity-75"></span>
+                            <span className="relative inline-flex rounded-full h-3 w-3 bg-textOrange"></span>
+                        </span>
+                          <Image className="rounded-full mx-auto" width={110} height={110} src={woman} alt="woman"/> </div>
                         <div className="basis-2/3">
                           <p className="pb-10">
                           Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -86,9 +67,15 @@ const Testimonial = () => {
             <div className="lg:basis-1/3 text-center">
                 <div className="h-full grid grid-cols-1 gap-2 content-between">
                     <div className="flex flex-col gap-2 p-10 bg-buttonColor rounded-3xl">
-                      <div><Image className="rounded-full mx-auto" width={110} height={110} src={woman} alt="woman"/></div>
                       <div>
-                        <p className="xl:pb-10 pb-5">
+                      <span className="relative flex h-3 w-3">
+                            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-textOrange opacity-75"></span>
+                            <span className="relative inline-flex rounded-full h-3 w-3 bg-textOrange"></span>
+                        </span>
+                        <Image className="rounded-full mx-auto" width={110} height={110} src={woman} alt="woman"/>
+                      </div>
+                      <div>
+                        <p className="xl:pb-7 pb-5">
                           Lorem ipsum dolor sit amet consectetur adipisicing elit.
                           Praesentium accusantium provident quas, illo ut possimus
                           facere omnis reiciendis quis dolores.

@@ -1,6 +1,8 @@
 import React from 'react'
 import project_1 from "../public/images/project1.png"
 import project_2 from "../public/images/project2.png"
+import image_one from "../public/images/store/projet1.png"
+import image_two from "../public/images/store/projet2.png"
 
 import Image from 'next/image'
 
