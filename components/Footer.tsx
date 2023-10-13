@@ -11,7 +11,7 @@ const Footer = () => {
             <h3>Testimonial</h3>
         </div>
         <div className='xl:w-1/3 grid mx-auto'>
-            <h3 className='justify-self-end '>All Right Reserved</h3>
+            <h3 className='justify-self-end '>© 2023 - All Right Reserved</h3>
         </div>
       </div>
     </div>

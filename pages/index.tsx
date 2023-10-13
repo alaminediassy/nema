@@ -2,6 +2,7 @@ import About from "@/components/About";
 import Footer from "@/components/Footer";
 import GetinTouch from "@/components/GetinTouch";
 import Header from "@/components/Header";
+import InfiniteLoop from "@/components/InfiniteLoop";
 import Navbar from "@/components/Navbar";
 import Project from "@/components/Project";
 import Services from "@/components/Services";
@@ -36,6 +37,7 @@ export default function Home() {
           </motion.div>
           <div className="h-[88vh] w-full mx-auto p-4 ">
             <Header/>
+            <InfiniteLoop/>
             <About/>
             <Services/>
             <Project/>

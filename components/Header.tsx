@@ -45,23 +45,6 @@ const Header = () => {
               </div>
           </div>
         </div>
-        <div className='flex w-full justify-between p-6'>
-          <div>
-            <Image className='w-36 gap-2 text-buttonColor' src={phoenix} alt='phoenix'/>
-          </div>
-          <div>
-            <Image className='w-36 gap-2 text-buttonColor' src={phoenix} alt='abstract'/>
-          </div>
-          <div>
-            <Image className='w-36 gap-2 text-buttonColor' src={phoenix} alt='phoenix'/>
-          </div>
-          <div>
-            <Image className='w-36 gap-2 text-buttonColor' src={phoenix} alt='abstract'/>
-          </div>
-          <div>
-            <Image className='w-36 gap-2 text-buttonColor' src={phoenix} alt='phoenix'/>
-          </div>
-        </div>
     </div>
   )
 }
